@@ -21,3 +21,28 @@ http://maniamdrid.github.io/dino-clone-multi.
 - Networking: Add WebRTC support to allow two players to compete from different devices.
 
 - Global Leaderboard: Implement a global High Score system for all network users.
+
+## Prerequisites
+
+- **Node.js**: Version `20.x` is required.
+- **NPM**: Standard package manager included with Node.js.
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. **Check Node.js Version**
+   Ensure you are using version 20:
+   ```bash
+   node -v
+   # If you use nvm, run: nvm use 20
+2. **Install Dependencies**
+   Navigate to the project directory and install the required packages:
+   ```bash
+   npm install
+   ```
+3. **Run the Application**
+   Start the server using the following command:
+   ```bash
+   npm run dev
+   ```
