@@ -6,6 +6,8 @@ Dino Multiplayer is another clone of game Chrome Dino (chrome://dino) with realt
 
 - Web-based: Playable directly in any modern web browser.
 
+- Device Compatibility: Supports 2-player mode on PC (keyboard required); phone/mobile is limited to single-player mode.
+
 - Local Multiplayer: Supports up to 2 players playing simultaneously on one PC.
 
 - Global Leaderboard: Tracks high scores locally using localStorage.
