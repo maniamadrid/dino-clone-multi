@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Dyno Two Players</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Dino Multiplayer Game</h1>
+    <div class="controls">
+        <p class="p1">
+            <b>PLAYER 1 (Green):</b>
+            '<b>W</b>' to Jump | '<b>S</b>' to Duck
+        </p>
+        <p class="p2">
+            <b>PLAYER 2 (Blue):</b>
+            '<b>Up Arrow</b>' to Jump | '<b>Down Arrow</b>' to Duck
+        </p>
+    </div>
+    <canvas id="gameCanvas" width="800" height="220"></canvas>
+    <script type="module" src="./game.js"></script>
+    <div id="menu">
+        <button onclick="startGame(1)">1 PLAYER</button>
+        <button onclick="startGame(2)">2 PLAYERS</button>
+    </div>
+
+</body>
+
+</html>

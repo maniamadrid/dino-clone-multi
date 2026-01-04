@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background: #f7f7f7;
+    font-family: 'Courier New', Courier, monospace;
+    color: #535353;
+}
+
+canvas {
+    background: #fff;
+    border-bottom: 2px solid #535353;
+    display: block;
+    margin: 20px auto;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.p1 {
+    color: #548d4e;
+}
+
+.p2 {
+    color: #4e668d;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#menu {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#menu.hidden {
+    opacity: 0;
+    transform: scale(0.9);
+    pointer-events: none;
+    /* Prevents clicking buttons while they are invisible */
+}
+
+#menu button {
+    margin: 10px;
+    padding: 12px 24px;
+    border: 2px solid #535353;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#menu button:hover {
+    background: #535353;
+    color: white;
+    transform: translateY(-2px);
+}
