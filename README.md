@@ -15,3 +15,9 @@ Dino Multiplayer is another clone of game Chrome Dino (chrome://dino) with realt
 ## Demo link
 
 http://maniamdrid.github.io/dino-clone-multi.
+
+## To-do's
+
+- Networking: Add WebRTC support to allow two players to compete from different devices.
+
+- Global Leaderboard: Implement a global High Score system for all network users.
